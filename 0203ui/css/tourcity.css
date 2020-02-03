@@ -1,0 +1,470 @@
+
+a { text-decoration:none } /*링크밑줄제거*/
+
+ul{
+list-style:none;
+}
+/*섹션*/
+section{
+height:2370px;
+}
+/*사이드메뉴*/
+
+ aside {
+ position: absolute;
+ top:800px;
+ left:1%;
+  width: 200px;
+  height:260px;
+  min-height: 200px;
+  padding: 35px;
+  margin: 0 22px 44px 22px;
+  position: absolute;
+  top:800px;
+  vertical-align: top;
+  display: inline-block;
+  font-family: Englebert, Arial;
+  color: #4b453c;
+  background: url(https://i.imgur.com/2BdQt0g.jpg);
+  line-height: 34px;
+  text-align: center;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  z-index:1111;
+}
+.sidefixed {
+position: fixed; 
+top:70px;
+}
+
+/* Note styles */
+.note-wrap:before {
+  display: block;
+  content: "";
+  background: rgba(227, 200, 114, 0.4);
+  width: 130px;
+  height: 28px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px/18px 0;
+  position: absolute;
+  top:-15px;
+  left: 30px;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+.note-wrap a {
+ line-height: 2.8em;
+  color: #6b824f;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.note-wrap a:hover {
+  color: #D83A25;
+}
+.note {
+width:170px;
+height:230px;
+padding-left:20px;
+  background: #F7E999;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+
+/*메인배너*/
+ .mainbox{
+ margin:0 0;
+ width:100%;
+ height:500px;
+ position:relative;
+ }
+/*시계위치*/
+.clockwich{
+ position:absolute;
+ left:-200px;
+ top:200px;
+ }
+ /*시간나오는곳*/
+ .clockcheck{
+ position:absolute;
+ top:100px;
+ left:50px;
+ background-color:transparent; 
+ border:0 solid;
+ width:400px;
+ height:70px; 
+ line-height:150px;
+ color:white;
+ font-size:25px;
+ text-align:center;
+ }  
+/* 날씨위치*/
+ .weather{
+ position:absolute;
+ top:300px;
+ left:90%;
+ width:400px;
+ color:white;
+ }
+ /*도시이름나오는곳*/
+ .cnj_time{
+ background-color:transparent; 
+ border:0 solid;
+ width:700px;
+ height:200px;
+ font-size:50pt;
+ text-align:center;
+ }
+/*도시이름위치조절*/
+ .cityname{
+ float:left;
+ position:absolute;
+ top:50px;
+ left:32%;
+ width:700px;
+ height:200px;
+ }
+/* 나라선택메뉴*/
+ .sel{
+ position:absolute;
+ top:510px;
+ left:27.7%;
+ height:40px;
+ font-size:12pt;
+ text-align:center;
+ }
+/*도시선택맨트*/
+.cityment{
+position:absolute;
+top:517px;
+left:45%;
+font-size:20px;
+color:gray;
+}
+/*도시정보칸*/
+.cityinfo{
+width:1200px;
+height:500px;
+position:absolute;
+top:800px;
+left:24.5%;
+}
+/*도시인포에 도시이름 위치조절*/
+.wich{
+position:absolute;
+top:520px;
+left:-70px;
+}
+/*도시인포에 도시이름 텍스트박스조절*/
+.cityinfoname{
+height:100px;
+font-size:50pt;
+border:0 solid;
+}
+/*본문내용*/
+.subinfo{
+width:1050px;
+height:350px;
+position:absolute;
+top:110px;
+left:70px;
+font-size:16px;
+ line-height: 2.3em;
+}
+/*Best배너*/
+.best{
+position:absolute;
+top:1350px;
+left:500px;
+width:1150px;
+margin-right:50px;
+}
+.bestbanner {
+float:left;
+  margin: 50px 30px;
+  height: 200px;
+  width: 300px;
+  border: 10px solid white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.6);
+}
+.bestbanner img{
+  height: 200px;
+  width: 300px;
+  }
+
+.bestbanner .subtitle {
+  background: #66CCCC;
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -15px;
+  height: 40px;
+  width: 115px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-45deg);
+  /* Safari and Chrome */
+}
+
+.bestbanner .subtitle span {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 17px;
+  margin-top: 3px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bestbanner .subtitle:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-left: 40px solid #66CCCC;
+  margin-left: 114px;
+}
+
+.bestbanner .subtitle:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-left: -39px;
+  border-top: 40px solid transparent;
+  border-right: 40px solid #66CCCC;
+}
+
+
+/* 탭메뉴*/
+.container {/*위치조절*/
+    width: 90%;
+    margin: 30px auto;
+	position:absolute;
+	left:51%;
+	top:1730px;
+}
+.tab-section1 {
+    width: 670px;
+    height: 250px;
+    margin-right: 40px;
+    position:relative;
+}
+
+.tab-section1 input{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+}
+.tab-section1 label{
+   font-size: 15px;
+    padding: 10px 35px;
+    color: #333;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.2);
+    border-radius: 4px;
+    text-shadow: inherit;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.tab2-content {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+}
+
+input#section1:checked ~ #sec1, input#section2:checked ~  #sec2,
+input#section3:checked ~ #sec3, input#section4:checked ~ #sec4,
+input#section5:checked ~ #sec5{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+input#section1:checked + label, input#section2:checked +  label,
+input#section3:checked + label, input#section4:checked + label,
+input#section5:checked + label{
+   background-color: #f44336;
+    box-shadow: 0 16px 26px -10px rgba(244, 67, 54, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(244, 67, 54, 0.2);
+  color:#fff;
+      padding: 15px 35px;
+}
+#sub-menu {
+width:1300px;
+height:700px;
+position:absolute;
+left:-515px;
+}
+#sub-menu > li {
+ padding: 20px 30px;
+}
+#sub-menu > li >  a {
+color:black;
+margin-left:7px;
+}
+#sub-menu  li   img{/*나라이미지*/
+position:relative;
+top:8px;
+left:-10px;
+}
+#list2{/*나라리스트*/
+font-size:10pt;
+float:left;
+color:black;
+}
+#list2:hover{
+color:gray;
+}
+#sub-menu > li >  a:hover{
+color:red;
+}
+/*탭메뉴내용*/
+.wrapper2{
+  height: 220px;
+  width: 354px;
+  margin: 50px auto;
+  border-radius: 7px 7px 7px 7px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+ position:relative;
+ top:-3px;
+ left:15px;
+ float: left;
+ height: 110px;
+ width: 200px;
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+  float: left;
+  height: 110px;
+  width: 154px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.product-text {
+position:relative;
+ top:-40px;
+ left:-10px;
+  height: 110px;
+  width: 154px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 15px;
+  color: #474747;
+}
+
+.product-text h1,
+.product-price-btn p {
+  font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 38px;
+  font-family: 'Playfair Display', serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 103px;
+  width: 70px;
+  margin-top: 17px;
+  position: relative;
+  top:50px;
+  left:100px;
+}
+
+.product-price-btn p {
+  display: inline-block;
+  position: absolute;
+  top: -13px;
+  height: 50px;
+  font-family: 'Trocchi', serif;
+  margin: 0 0 0 38px;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+span {
+  display: inline-block;
+  height: 50px;
+  font-family: 'Suranna', serif;
+  font-size: 34px;
+}
+
+.product-price-btn button {
+  float: right;
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  margin: 0 40px 0 16px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #9cebd5;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #79b0a1;
+}
+
+footer{
+height:200px;
+width:100&;
+background:#D6503E; 
+}
